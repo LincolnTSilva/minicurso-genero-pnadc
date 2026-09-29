@@ -54,3 +54,6 @@ format:
     css: styles.css
     toc: true
     toc-title: "Nesta página"
+    # Pede aos buscadores que não indexem o site (retirar para aparecer no Google)
+    include-in-header:
+      text: '<meta name="robots" content="noindex, nofollow">'
