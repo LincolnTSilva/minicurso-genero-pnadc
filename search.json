@@ -1,0 +1,338 @@
+[
+  {
+    "objectID": "relatorio.html",
+    "href": "relatorio.html",
+    "title": "Indicadores de desigualdade de gênero",
+    "section": "",
+    "text": "Fonte: IBGE, PNAD Contínua, arquivo anual da 5ª visita de 2022. Estimativas calculadas com o desenho amostral da pesquisa, com intervalos de confiança de 95%."
+  },
+  {
+    "objectID": "relatorio.html#nota-metodológica",
+    "href": "relatorio.html#nota-metodológica",
+    "title": "Indicadores de desigualdade de gênero",
+    "section": "",
+    "text": "Fonte: IBGE, PNAD Contínua, arquivo anual da 5ª visita de 2022. Estimativas calculadas com o desenho amostral da pesquisa, com intervalos de confiança de 95%."
+  },
+  {
+    "objectID": "relatorio.html#trabalho-e-renda",
+    "href": "relatorio.html#trabalho-e-renda",
+    "title": "Indicadores de desigualdade de gênero",
+    "section": "Trabalho e renda",
+    "text": "Trabalho e renda\nTaxa de participação, taxa de desocupação, informalidade e razão de rendimentos."
+  },
+  {
+    "objectID": "relatorio.html#educação",
+    "href": "relatorio.html#educação",
+    "title": "Indicadores de desigualdade de gênero",
+    "section": "Educação",
+    "text": "Educação\nNível de instrução da população de 25 anos ou mais."
+  },
+  {
+    "objectID": "relatorio.html#trabalho-não-remunerado-e-domicílio",
+    "href": "relatorio.html#trabalho-não-remunerado-e-domicílio",
+    "title": "Indicadores de desigualdade de gênero",
+    "section": "Trabalho não remunerado e domicílio",
+    "text": "Trabalho não remunerado e domicílio\nHoras em cuidados e afazeres domésticos."
+  },
+  {
+    "objectID": "relatorio.html#recorte-territorial",
+    "href": "relatorio.html#recorte-territorial",
+    "title": "Indicadores de desigualdade de gênero",
+    "section": "Recorte territorial",
+    "text": "Recorte territorial\nCapital, resto da região metropolitana e interior de cada UF selecionada."
+  },
+  {
+    "objectID": "relatorio.html#diferenças-brutas-e-ajustadas",
+    "href": "relatorio.html#diferenças-brutas-e-ajustadas",
+    "title": "Indicadores de desigualdade de gênero",
+    "section": "Diferenças brutas e ajustadas",
+    "text": "Diferenças brutas e ajustadas\nRegressão com desenho amostral."
+  },
+  {
+    "objectID": "relatorio.html#seu-indicador",
+    "href": "relatorio.html#seu-indicador",
+    "title": "Indicadores de desigualdade de gênero",
+    "section": "Seu indicador",
+    "text": "Seu indicador\nEspaço para o indicador criado na atividade do Dia 2."
+  },
+  {
+    "objectID": "preparacao.html",
+    "href": "preparacao.html",
+    "title": "Preparação",
+    "section": "",
+    "text": "NotaNo laboratório\n\n\n\nOs computadores do laboratório estarão configurados antes do curso, com R, RStudio, pacotes, projeto e base de dados. Esta página é para quem quiser acompanhar também no próprio computador."
+  },
+  {
+    "objectID": "preparacao.html#instale-os-programas",
+    "href": "preparacao.html#instale-os-programas",
+    "title": "Preparação",
+    "section": "1. Instale os programas",
+    "text": "1. Instale os programas\n\n\n\nPrograma\nOnde baixar\n\n\n\n\nR\ncran.r-project.org\n\n\nRStudio\nposit.co/download/rstudio-desktop\n\n\nQuarto\nquarto.org"
+  },
+  {
+    "objectID": "preparacao.html#instale-os-pacotes",
+    "href": "preparacao.html#instale-os-pacotes",
+    "title": "Preparação",
+    "section": "2. Instale os pacotes",
+    "text": "2. Instale os pacotes\nNo console do R:\ninstall.packages(c(\"tidyverse\", \"srvyr\", \"survey\", \"quarto\"))"
+  },
+  {
+    "objectID": "preparacao.html#baixe-o-projeto-e-a-base",
+    "href": "preparacao.html#baixe-o-projeto-e-a-base",
+    "title": "Preparação",
+    "section": "3. Baixe o projeto e a base",
+    "text": "3. Baixe o projeto e a base\nOs links serão disponibilizados na página Dados."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Indicadores de desigualdade de gênero com a PNAD Contínua em R",
+    "section": "",
+    "text": "Aprenda a construir, estimar e interpretar indicadores de desigualdade de gênero com os microdados da PNAD Contínua, em um fluxo reprodutível com R e Quarto.\nAo final, você reproduz um relatório completo e acrescenta a ele um indicador criado por você."
+  },
+  {
+    "objectID": "index.html#como-o-curso-funciona",
+    "href": "index.html#como-o-curso-funciona",
+    "title": "Indicadores de desigualdade de gênero com a PNAD Contínua em R",
+    "section": "Como o curso funciona",
+    "text": "Como o curso funciona\nComeçamos pelo fim: na abertura, você vê o relatório pronto. Nos dois dias, desmontamos e remontamos esse relatório, etapa por etapa. No encerramento, o mesmo relatório é atualizado para outro ano trocando apenas um parâmetro.\n\n\n\nDia 1: da pergunta aos dados\n\nIndicadores de gênero e o CMIG\nConhecendo a PNAD Contínua\nProjeto reprodutível e leitura da base\nRecodificação e variáveis derivadas\nPrimeiras estimativas e gráficos\n\nVer programa do Dia 1 →\n\n\n\n\nDia 2: dos dados às conclusões\n\nDesenho amostral com srvyr\nReprodução do relatório\nComparações, testes e regressão\nAtividade: um indicador novo\nAtualização para o ano mais recente\n\nVer programa do Dia 2 →"
+  },
+  {
+    "objectID": "index.html#o-que-você-vai-aprender",
+    "href": "index.html#o-que-você-vai-aprender",
+    "title": "Indicadores de desigualdade de gênero com a PNAD Contínua em R",
+    "section": "O que você vai aprender",
+    "text": "O que você vai aprender\n\nLocalizar no questionário e no dicionário da PNAD Contínua as variáveis de um indicador.\nRecodificar variáveis e construir variáveis derivadas da pessoa e do domicílio.\nAplicar o desenho amostral e os pesos com o pacote srvyr.\nCalcular taxas, médias e razões entre grupos, com intervalo de confiança e coeficiente de variação.\nDesagregar indicadores por idade, cor ou raça, escolaridade e território, avaliando a precisão.\nTestar diferenças entre grupos e interpretar uma regressão com desenho amostral.\nComunicar os resultados em gráficos com ggplot2.\nReproduzir e atualizar um relatório em Quarto."
+  },
+  {
+    "objectID": "index.html#informações-gerais",
+    "href": "index.html#informações-gerais",
+    "title": "Indicadores de desigualdade de gênero com a PNAD Contínua em R",
+    "section": "Informações gerais",
+    "text": "Informações gerais\n\n\n\n\n\n\n\nCarga horária\n6 horas, em 2 encontros de 3 horas\n\n\nLocal\nLaboratório de informática da universidade\n\n\nPré-requisito\nAlguma familiaridade com R\n\n\nFerramentas\nR, RStudio, Quarto, tidyverse, srvyr, survey e ggplot2\n\n\nDados\nPNAD Contínua, arquivo anual da 5ª visita (IBGE)\n\n\n\n\n\n\n\n\n\nDicaAntes do curso\n\n\n\nOs computadores do laboratório já estarão configurados. Se quiser acompanhar também no seu computador, veja a página Preparação."
+  },
+  {
+    "objectID": "dia1.html",
+    "href": "dia1.html",
+    "title": "Dia 1: da pergunta aos dados",
+    "section": "",
+    "text": "O primeiro dia termina com uma estimativa pontual e um gráfico, e deixa em aberto uma pergunta: quão confiável é esse número?"
+  },
+  {
+    "objectID": "dia1.html#programa",
+    "href": "dia1.html#programa",
+    "title": "Dia 1: da pergunta aos dados",
+    "section": "Programa",
+    "text": "Programa\n\n\n\n\n\n\n\n\n\nHorário\nBloco\nConteúdo\n\n\n\n\n0:00–0:15\nAbertura\nApresentação, objetivos e demonstração do relatório final pronto\n\n\n0:15–0:30\n1. Enquadramento\nCMIG e ODS 5 a partir da publicação do IBGE. Sexo e gênero na PNAD. O que a PNAD mede e o que exige outras fontes\n\n\n0:30–1:00\n2. Conhecendo a PNAD Contínua\nDesenho amostral, arquivo da 5ª visita, questionário, dicionário e domínios de estimação\n\n\n1:00–1:10\nIntervalo\n\n\n\n1:10–1:40\n3. O projeto e os dados\nProjeto reprodutível, renderização do relatório com parâmetros e leitura da base\n\n\n1:40–2:20\n4. Recodificação e variáveis derivadas\nIdade, cor ou raça, escolaridade, território, condição de atividade e variável de domicílio\n\n\n2:20–2:50\n5. Primeiras estimativas e primeiro gráfico\nEstimativas com dplyr, com e sem peso, e gráfico com ggplot2\n\n\n2:50–3:00\nFechamento\nSíntese e ponte para o Dia 2"
+  },
+  {
+    "objectID": "dia1.html#enquadramento-indicadores-de-gênero",
+    "href": "dia1.html#enquadramento-indicadores-de-gênero",
+    "title": "Dia 1: da pergunta aos dados",
+    "section": "1. Enquadramento: indicadores de gênero",
+    "text": "1. Enquadramento: indicadores de gênero\nTexto a desenvolver: o que é um indicador de desigualdade de gênero, o CMIG e suas cinco dimensões, o ODS 5 e a publicação Estatísticas de Gênero do IBGE como referência.\n\n\n\n\n\n\nImportanteSexo e gênero na PNAD Contínua\n\n\n\nA PNAD Contínua registra o sexo da pessoa em duas categorias. Os indicadores do curso comparam mulheres e homens e não permitem analisar identidade de gênero ou orientação sexual."
+  },
+  {
+    "objectID": "dia1.html#conhecendo-a-pnad-contínua",
+    "href": "dia1.html#conhecendo-a-pnad-contínua",
+    "title": "Dia 1: da pergunta aos dados",
+    "section": "2. Conhecendo a PNAD Contínua",
+    "text": "2. Conhecendo a PNAD Contínua\nTexto a desenvolver: desenho amostral (estratos, UPAs, pesos e calibração), divulgação trimestral e arquivo da 5ª visita, questionário, dicionário, variáveis derivadas e domínios de estimação."
+  },
+  {
+    "objectID": "dia1.html#o-projeto-e-os-dados",
+    "href": "dia1.html#o-projeto-e-os-dados",
+    "title": "Dia 1: da pergunta aos dados",
+    "section": "3. O projeto e os dados",
+    "text": "3. O projeto e os dados\nTexto a desenvolver: estrutura do projeto e leitura da base preparada.\n\nlibrary(tidyverse)\n\n\n# Código a desenvolver: leitura da base preparada (.rds)"
+  },
+  {
+    "objectID": "dia1.html#recodificação-e-variáveis-derivadas",
+    "href": "dia1.html#recodificação-e-variáveis-derivadas",
+    "title": "Dia 1: da pergunta aos dados",
+    "section": "4. Recodificação e variáveis derivadas",
+    "text": "4. Recodificação e variáveis derivadas\nTexto a desenvolver: faixa etária, cor ou raça, escolaridade, território, situação do domicílio, posição na ocupação e condição de atividade.\n\n# Código a desenvolver: recodificações e variáveis derivadas\n\n\nVariável de domicílio: presença de criança de até 6 anos\n\n# Código a desenvolver: variável construída no nível do domicílio\n\n\n\n\n\n\n\nNotaExercício 1\n\n\n\nEnunciado a desenvolver.\n\n\n\n\n\n\n\n\nDicaGabarito do exercício 1\n\n\n\n\n\n\n# Solução a desenvolver"
+  },
+  {
+    "objectID": "dia1.html#primeiras-estimativas-e-primeiro-gráfico",
+    "href": "dia1.html#primeiras-estimativas-e-primeiro-gráfico",
+    "title": "Dia 1: da pergunta aos dados",
+    "section": "5. Primeiras estimativas e primeiro gráfico",
+    "text": "5. Primeiras estimativas e primeiro gráfico\nTexto a desenvolver: a mesma pergunta respondida sem peso e com peso.\n\n# Código a desenvolver: estimativa sem peso\n\n\n\n\n\n\n\nAvisoErro comum\n\n\n\nCalcular médias e proporções sem o peso amostral produz estimativas que não representam a população.\n\n\n\n# Código a desenvolver: estimativa com peso\n\n\n# Código a desenvolver: gráfico de mulheres e homens com ggplot2"
+  },
+  {
+    "objectID": "dia1.html#para-levar-ao-dia-2",
+    "href": "dia1.html#para-levar-ao-dia-2",
+    "title": "Dia 1: da pergunta aos dados",
+    "section": "Para levar ao Dia 2",
+    "text": "Para levar ao Dia 2\n\n# Código a desenvolver: salvar a base recodificada, que é o ponto de partida do Dia 2\n\nTemos um número. Mas quão confiável ele é? Essa é a pergunta que abre o Dia 2."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sobre",
+    "section": "",
+    "text": "Lincoln Teixeira da Silva\nEstatístico e economista. Trabalho na coordenação de índices de preços e sou professor da disciplina de prática de software na pós-graduação da ENCE há quase 10 anos."
+  },
+  {
+    "objectID": "about.html#instrutor",
+    "href": "about.html#instrutor",
+    "title": "Sobre",
+    "section": "",
+    "text": "Lincoln Teixeira da Silva\nEstatístico e economista. Trabalho na coordenação de índices de preços e sou professor da disciplina de prática de software na pós-graduação da ENCE há quase 10 anos."
+  },
+  {
+    "objectID": "about.html#sobre-este-site",
+    "href": "about.html#sobre-este-site",
+    "title": "Sobre",
+    "section": "Sobre este site",
+    "text": "Sobre este site\nEste site reúne os materiais do minicurso Indicadores de desigualdade de gênero com a PNAD Contínua em R. Ele foi construído com Quarto, a mesma ferramenta usada no relatório do curso."
+  },
+  {
+    "objectID": "about.html#fonte-dos-dados",
+    "href": "about.html#fonte-dos-dados",
+    "title": "Sobre",
+    "section": "Fonte dos dados",
+    "text": "Fonte dos dados\nOs dados utilizados são os microdados públicos da Pesquisa Nacional por Amostra de Domicílios Contínua (PNAD Contínua), do IBGE."
+  },
+  {
+    "objectID": "dados.html",
+    "href": "dados.html",
+    "title": "Dados",
+    "section": "",
+    "text": "O curso usa o arquivo anual da 5ª visita da PNAD Contínua, que reúne trabalho, rendimentos, escolaridade e afazeres domésticos em uma única base."
+  },
+  {
+    "objectID": "dados.html#base-preparada",
+    "href": "dados.html#base-preparada",
+    "title": "Dados",
+    "section": "Base preparada",
+    "text": "Base preparada\nUma versão reduzida da base, com as variáveis usadas no curso, em formato .rds. Ela mantém todas as pessoas da amostra e as variáveis do desenho amostral.\nO link para download será disponibilizado aqui."
+  },
+  {
+    "objectID": "dados.html#script-de-preparação",
+    "href": "dados.html#script-de-preparação",
+    "title": "Dados",
+    "section": "Script de preparação",
+    "text": "Script de preparação\nO script que baixa os microdados do IBGE e gera a base preparada, para quem quiser reproduzir o processo ou atualizar os dados para outro ano.\nO link será disponibilizado aqui.\n\n\n\n\n\n\nAvisoPor que não baixar os dados do IBGE durante a aula?\n\n\n\nOs microdados completos são grandes e demoram para baixar e ler. Com 30 pessoas na mesma rede, o processo ficaria lento. Por isso, no laboratório, a base preparada já estará copiada em cada computador."
+  },
+  {
+    "objectID": "dia2.html",
+    "href": "dia2.html",
+    "title": "Dia 2: dos dados às conclusões",
+    "section": "",
+    "text": "O segundo dia acrescenta a incerteza às estimativas, reproduz o relatório e termina com a atualização do relatório para o ano mais recente."
+  },
+  {
+    "objectID": "dia2.html#programa",
+    "href": "dia2.html#programa",
+    "title": "Dia 2: dos dados às conclusões",
+    "section": "Programa",
+    "text": "Programa\n\n\n\n\n\n\n\n\n\nHorário\nBloco\nConteúdo\n\n\n\n\n0:00–0:10\nRetomada\nRevisão do Dia 1 e dúvidas\n\n\n0:10–0:45\n6. O desenho amostral com srvyr\nCriação do desenho, intervalo de confiança e CV, comparação entre dplyr e srvyr\n\n\n0:45–1:25\n7. Reproduzindo o relatório\nTaxa, média, razão e distribuição, com validação pelos números do IBGE\n\n\n1:25–1:35\nIntervalo\n\n\n\n1:35–2:20\n8. Comparar com rigor\nRecortes territoriais, semáforo de CV, testes de hipóteses e regressão com svyglm\n\n\n2:20–2:50\n9. Atividade: um indicador novo\nEm duplas, com a ficha do indicador\n\n\n2:50–3:00\nEncerramento\nAtualização do relatório para o ano mais recente"
+  },
+  {
+    "objectID": "dia2.html#ponto-de-partida",
+    "href": "dia2.html#ponto-de-partida",
+    "title": "Dia 2: dos dados às conclusões",
+    "section": "Ponto de partida",
+    "text": "Ponto de partida\n\n# Código a desenvolver: leitura da base recodificada ao final do Dia 1"
+  },
+  {
+    "objectID": "dia2.html#o-desenho-amostral-com-srvyr",
+    "href": "dia2.html#o-desenho-amostral-com-srvyr",
+    "title": "Dia 2: dos dados às conclusões",
+    "section": "6. O desenho amostral com srvyr",
+    "text": "6. O desenho amostral com srvyr\nTexto a desenvolver: por que o peso acerta o ponto e o desenho mostra a incerteza.\n\nlibrary(srvyr)\n# Código a desenvolver: criação do desenho amostral\n\n\n\n\n\n\n\nAvisoErro comum\n\n\n\nFiltrar o data frame antes de criar o desenho produz erros-padrão incorretos. O recorte deve ser feito no desenho.\n\n\n\n# Código a desenvolver: a estimativa do Dia 1 refeita com srvyr"
+  },
+  {
+    "objectID": "dia2.html#reproduzindo-o-relatório",
+    "href": "dia2.html#reproduzindo-o-relatório",
+    "title": "Dia 2: dos dados às conclusões",
+    "section": "7. Reproduzindo o relatório",
+    "text": "7. Reproduzindo o relatório\nTexto a desenvolver: as quatro famílias de indicador e a validação com os números publicados pelo IBGE.\n\n# Código a desenvolver: taxa, média, razão e distribuição"
+  },
+  {
+    "objectID": "dia2.html#comparar-com-rigor",
+    "href": "dia2.html#comparar-com-rigor",
+    "title": "Dia 2: dos dados às conclusões",
+    "section": "8. Comparar com rigor",
+    "text": "8. Comparar com rigor\n\nRecortes territoriais e precisão\n\n# Código a desenvolver: Brasil, UFs e recorte capital, resto da RM e interior, com semáforo de CV\n\n\n\nTestes de hipóteses\n\n# Código a desenvolver: teste t com desenho e qui-quadrado de Rao-Scott\n\n\n\nRegressão com desenho amostral\n\n# Código a desenvolver: sequência de modelos com svyglm e gráfico de coeficientes"
+  },
+  {
+    "objectID": "dia2.html#atividade-um-indicador-novo",
+    "href": "dia2.html#atividade-um-indicador-novo",
+    "title": "Dia 2: dos dados às conclusões",
+    "section": "9. Atividade: um indicador novo",
+    "text": "9. Atividade: um indicador novo\nEm duplas, preencham a ficha do indicador, calculem o indicador com o desenho amostral, façam um gráfico e testem uma comparação. Depois, incluam o resultado no relatório.\n\n\n\n\n\n\nNotaFicha do indicador\n\n\n\n\nNome:\nDefinição:\nNumerador:\nDenominador:\nPopulação de referência:\nVariáveis da PNAD:\nDesagregação:\nComparação a testar:"
+  },
+  {
+    "objectID": "dia2.html#encerramento",
+    "href": "dia2.html#encerramento",
+    "title": "Dia 2: dos dados às conclusões",
+    "section": "Encerramento",
+    "text": "Encerramento\nO mesmo relatório, renderizado para o ano mais recente, trocando apenas o parâmetro ano."
+  },
+  {
+    "objectID": "materiais.html",
+    "href": "materiais.html",
+    "title": "Materiais",
+    "section": "",
+    "text": "Arquivo\nConteúdo\n\n\n\n\nDia 1: da pergunta aos dados\nLeitura da base, recodificação, primeiras estimativas e gráficos\n\n\nDia 2: dos dados às conclusões\nDesenho amostral, indicadores, testes, regressão e atividade final"
+  },
+  {
+    "objectID": "materiais.html#material-de-aula",
+    "href": "materiais.html#material-de-aula",
+    "title": "Materiais",
+    "section": "",
+    "text": "Arquivo\nConteúdo\n\n\n\n\nDia 1: da pergunta aos dados\nLeitura da base, recodificação, primeiras estimativas e gráficos\n\n\nDia 2: dos dados às conclusões\nDesenho amostral, indicadores, testes, regressão e atividade final"
+  },
+  {
+    "objectID": "materiais.html#relatório-final",
+    "href": "materiais.html#relatório-final",
+    "title": "Materiais",
+    "section": "Relatório final",
+    "text": "Relatório final\nRelatório em Quarto, parametrizado por ano e por uma lista de UFs, com os indicadores do curso."
+  },
+  {
+    "objectID": "materiais.html#ficha-de-indicador",
+    "href": "materiais.html#ficha-de-indicador",
+    "title": "Materiais",
+    "section": "Ficha de indicador",
+    "text": "Ficha de indicador\nModelo para a atividade do bloco 9, disponível no material do Dia 2."
+  },
+  {
+    "objectID": "materiais.html#dicionário-resumido",
+    "href": "materiais.html#dicionário-resumido",
+    "title": "Materiais",
+    "section": "Dicionário resumido",
+    "text": "Dicionário resumido\nAs variáveis da PNAD Contínua usadas no curso, com nome, descrição e categorias.\nEm preparação."
+  },
+  {
+    "objectID": "materiais.html#indicadores-trabalhados",
+    "href": "materiais.html#indicadores-trabalhados",
+    "title": "Materiais",
+    "section": "Indicadores trabalhados",
+    "text": "Indicadores trabalhados\n\n\n\n\n\n\n\n\nIndicador (código CMIG)\nTipo\nPapel no curso\n\n\n\n\nTaxa de participação na força de trabalho (1.8)\nTaxa\nNúcleo\n\n\nTaxa de desocupação (1.10)\nTaxa\nNúcleo\n\n\nProporção de ocupados informais (1.9)\nProporção\nNúcleo\n\n\nRendimento médio e razão entre mulheres e homens por grupo ocupacional (1.13)\nMédia e razão\nNúcleo\n\n\nNível de instrução da população de 25 anos ou mais (2.11)\nDistribuição\nNúcleo\n\n\nHoras semanais em cuidados de pessoas e afazeres domésticos (1.1)\nMédia\nNúcleo\n\n\nNível de ocupação de 25 a 54 anos, com e sem criança de até 6 anos (1.15)\nProporção\nExercício\n\n\nOcupação em tempo parcial (1.14)\nProporção\nExercício\n\n\nMulheres em cargos gerenciais (5.3)\nProporção\nExercício\n\n\nJovens de 15 a 24 anos que não estudam nem estão ocupados (1.7)\nProporção\nExercício\n\n\nFrequência escolar de 15 a 17 anos (2.3)\nTaxa\nExercício"
+  },
+  {
+    "objectID": "referencias.html",
+    "href": "referencias.html",
+    "title": "Referências",
+    "section": "",
+    "text": "IBGE. Estatísticas de Gênero: indicadores sociais das mulheres no Brasil. 3ª edição, 2024.\nIBGE. Pesquisa Nacional por Amostra de Domicílios Contínua.\nNações Unidas. Conjunto Mínimo de Indicadores de Gênero (CMIG)."
+  },
+  {
+    "objectID": "referencias.html#dados-e-indicadores",
+    "href": "referencias.html#dados-e-indicadores",
+    "title": "Referências",
+    "section": "",
+    "text": "IBGE. Estatísticas de Gênero: indicadores sociais das mulheres no Brasil. 3ª edição, 2024.\nIBGE. Pesquisa Nacional por Amostra de Domicílios Contínua.\nNações Unidas. Conjunto Mínimo de Indicadores de Gênero (CMIG)."
+  },
+  {
+    "objectID": "referencias.html#pacotes-e-ferramentas",
+    "href": "referencias.html#pacotes-e-ferramentas",
+    "title": "Referências",
+    "section": "Pacotes e ferramentas",
+    "text": "Pacotes e ferramentas\n\nPNADcIBGE: download e leitura dos microdados da PNAD Contínua.\nsrvyr: análise de amostras complexas com sintaxe do dplyr.\nsurvey: testes e regressão com desenho amostral.\nggplot2: gráficos.\nQuarto: relatórios e sites reprodutíveis."
+  }
+]
