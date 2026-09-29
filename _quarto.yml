@@ -1,5 +1,8 @@
 project:
   type: website
+  # Só as páginas .qmd viram site (deixa de fora arquivos de apoio)
+  render:
+    - "*.qmd"
 
 # Os cálculos rodam só na sua máquina; o site publica os resultados guardados
 execute:
