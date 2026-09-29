@@ -1,0 +1,40 @@
+/*-- scss:defaults --*/
+
+// Cores do curso (inspiradas na publicação Estatísticas de Gênero do IBGE)
+$roxo: #5b4a9b;
+$laranja: #e8793a;
+
+$primary: $roxo;
+$secondary: $laranja;
+$link-color: $roxo;
+$navbar-bg: $roxo;
+$navbar-fg: #ffffff;
+$footer-bg: #f4f2f9;
+
+/*-- scss:rules --*/
+
+// Faixa de destaque no topo da página inicial
+.destaque {
+  background: linear-gradient(135deg, $roxo 0%, darken($roxo, 12%) 100%);
+  color: #ffffff;
+  padding: 2rem 2rem 1.5rem;
+  border-radius: 0.75rem;
+  margin-bottom: 2rem;
+
+  p { font-size: 1.15rem; margin-bottom: 0.5rem; }
+  a { color: #ffffff; text-decoration: underline; }
+}
+
+// Cartões dos dois dias
+.cartao {
+  border: 1px solid #e3def0;
+  border-top: 4px solid $laranja;
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;
+  height: 100%;
+
+  h3 { margin-top: 0; color: $roxo; }
+}
+
+// Tabelas do programa: coluna de horário estreita
+.programa table td:first-child { white-space: nowrap; font-variant-numeric: tabular-nums; }

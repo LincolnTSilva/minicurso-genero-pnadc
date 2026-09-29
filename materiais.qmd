@@ -1,0 +1,40 @@
+---
+title: "Materiais"
+---
+
+## Material de aula
+
+| Arquivo | Conteúdo |
+|---|---|
+| [Dia 1: da pergunta aos dados](dia1.qmd) | Leitura da base, recodificação, primeiras estimativas e gráficos |
+| [Dia 2: dos dados às conclusões](dia2.qmd) | Desenho amostral, indicadores, testes, regressão e atividade final |
+
+## Relatório final
+
+[Relatório em Quarto](relatorio.qmd), parametrizado por ano e por uma lista de UFs, com os indicadores do curso.
+
+## Ficha de indicador
+
+Modelo para a atividade do bloco 9, disponível no [material do Dia 2](dia2.qmd#atividade-um-indicador-novo).
+
+## Dicionário resumido
+
+As variáveis da PNAD Contínua usadas no curso, com nome, descrição e categorias.
+
+*Em preparação.*
+
+## Indicadores trabalhados
+
+| Indicador (código CMIG) | Tipo | Papel no curso |
+|---|---|---|
+| Taxa de participação na força de trabalho (1.8) | Taxa | Núcleo |
+| Taxa de desocupação (1.10) | Taxa | Núcleo |
+| Proporção de ocupados informais (1.9) | Proporção | Núcleo |
+| Rendimento médio e razão entre mulheres e homens por grupo ocupacional (1.13) | Média e razão | Núcleo |
+| Nível de instrução da população de 25 anos ou mais (2.11) | Distribuição | Núcleo |
+| Horas semanais em cuidados de pessoas e afazeres domésticos (1.1) | Média | Núcleo |
+| Nível de ocupação de 25 a 54 anos, com e sem criança de até 6 anos (1.15) | Proporção | Exercício |
+| Ocupação em tempo parcial (1.14) | Proporção | Exercício |
+| Mulheres em cargos gerenciais (5.3) | Proporção | Exercício |
+| Jovens de 15 a 24 anos que não estudam nem estão ocupados (1.7) | Proporção | Exercício |
+| Frequência escolar de 15 a 17 anos (2.3) | Taxa | Exercício |

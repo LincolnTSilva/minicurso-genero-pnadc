@@ -1,0 +1,17 @@
+---
+title: "Referências"
+---
+
+## Dados e indicadores
+
+- IBGE. [Estatísticas de Gênero: indicadores sociais das mulheres no Brasil](https://www.ibge.gov.br/estatisticas/multidominio/genero/20163-estatisticas-de-genero-indicadores-sociais-das-mulheres-no-brasil.html). 3ª edição, 2024.
+- IBGE. [Pesquisa Nacional por Amostra de Domicílios Contínua](https://www.ibge.gov.br/estatisticas/sociais/trabalho/17270-pnad-continua.html).
+- Nações Unidas. [Conjunto Mínimo de Indicadores de Gênero (CMIG)](https://gender-data-hub-2-undesa.hub.arcgis.com/pages/indicators).
+
+## Pacotes e ferramentas
+
+- [PNADcIBGE](https://cran.r-project.org/package=PNADcIBGE): download e leitura dos microdados da PNAD Contínua.
+- [srvyr](https://cran.r-project.org/package=srvyr): análise de amostras complexas com sintaxe do dplyr.
+- [survey](https://cran.r-project.org/package=survey): testes e regressão com desenho amostral.
+- [ggplot2](https://ggplot2.tidyverse.org): gráficos.
+- [Quarto](https://quarto.org): relatórios e sites reprodutíveis.

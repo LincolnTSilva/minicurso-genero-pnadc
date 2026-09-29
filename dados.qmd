@@ -1,0 +1,22 @@
+---
+title: "Dados"
+---
+
+O curso usa o arquivo anual da **5ª visita da PNAD Contínua**, que reúne trabalho, rendimentos, escolaridade e afazeres domésticos em uma única base.
+
+## Base preparada
+
+Uma versão reduzida da base, com as variáveis usadas no curso, em formato `.rds`. Ela mantém todas as pessoas da amostra e as variáveis do desenho amostral.
+
+*O link para download será disponibilizado aqui.*
+
+## Script de preparação
+
+O script que baixa os microdados do IBGE e gera a base preparada, para quem quiser reproduzir o processo ou atualizar os dados para outro ano.
+
+*O link será disponibilizado aqui.*
+
+::: {.callout-warning}
+## Por que não baixar os dados do IBGE durante a aula?
+Os microdados completos são grandes e demoram para baixar e ler. Com 30 pessoas na mesma rede, o processo ficaria lento. Por isso, no laboratório, a base preparada já estará copiada em cada computador.
+:::

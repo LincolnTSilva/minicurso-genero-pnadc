@@ -1,0 +1,42 @@
+---
+title: "Indicadores de desigualdade de gênero"
+subtitle: "PNAD Contínua · `r params$ano` · `r paste(params$ufs, collapse = ', ')`"
+params:
+  ano: 2022
+  ufs: ["RJ"]
+code-fold: true
+---
+
+```{r}
+#| label: setup
+#| include: false
+# Código a desenvolver: pacotes, leitura da base do ano escolhido e desenho amostral
+```
+
+## Nota metodológica
+
+Fonte: IBGE, PNAD Contínua, arquivo anual da 5ª visita de `r params$ano`. Estimativas calculadas com o desenho amostral da pesquisa, com intervalos de confiança de 95%.
+
+## Trabalho e renda
+
+*Taxa de participação, taxa de desocupação, informalidade e razão de rendimentos.*
+
+## Educação
+
+*Nível de instrução da população de 25 anos ou mais.*
+
+## Trabalho não remunerado e domicílio
+
+*Horas em cuidados e afazeres domésticos.*
+
+## Recorte territorial
+
+*Capital, resto da região metropolitana e interior de cada UF selecionada.*
+
+## Diferenças brutas e ajustadas
+
+*Regressão com desenho amostral.*
+
+## Seu indicador
+
+*Espaço para o indicador criado na atividade do Dia 2.*

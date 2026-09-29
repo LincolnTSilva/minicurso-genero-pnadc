@@ -1,0 +1,18 @@
+# Arquivos internos do Quarto
+/.quarto/
+**/*.quarto_ipynb
+
+# Site gerado: é publicado em outro ramo pelo quarto publish
+/_site/
+
+# Arquivos do RStudio e da sessão do R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Dados: a base vai como anexo de Release, nunca dentro do repositório
+*.rds
+*.zip
+*.csv
+dados/

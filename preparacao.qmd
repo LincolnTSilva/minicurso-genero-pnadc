@@ -1,0 +1,28 @@
+---
+title: "Preparação"
+---
+
+::: {.callout-note}
+## No laboratório
+Os computadores do laboratório estarão configurados antes do curso, com R, RStudio, pacotes, projeto e base de dados. Esta página é para quem quiser acompanhar também no próprio computador.
+:::
+
+## 1. Instale os programas
+
+| Programa | Onde baixar |
+|---|---|
+| R | [cran.r-project.org](https://cran.r-project.org) |
+| RStudio | [posit.co/download/rstudio-desktop](https://posit.co/download/rstudio-desktop/) |
+| Quarto | [quarto.org](https://quarto.org/docs/get-started/) |
+
+## 2. Instale os pacotes
+
+No console do R:
+
+```r
+install.packages(c("tidyverse", "srvyr", "survey", "quarto"))
+```
+
+## 3. Baixe o projeto e a base
+
+*Os links serão disponibilizados na página [Dados](dados.qmd).*

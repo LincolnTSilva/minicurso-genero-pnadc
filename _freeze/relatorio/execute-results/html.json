@@ -1,0 +1,15 @@
+{
+  "hash": "e14bada2b30930dd6bf667494c5b1670",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Indicadores de desigualdade de gênero\"\nsubtitle: \"PNAD Contínua · 2022 · RJ\"\nparams:\n  ano: 2022\n  ufs: [\"RJ\"]\ncode-fold: true\n---\n\n\n\n## Nota metodológica\n\nFonte: IBGE, PNAD Contínua, arquivo anual da 5ª visita de 2022. Estimativas calculadas com o desenho amostral da pesquisa, com intervalos de confiança de 95%.\n\n## Trabalho e renda\n\n*Taxa de participação, taxa de desocupação, informalidade e razão de rendimentos.*\n\n## Educação\n\n*Nível de instrução da população de 25 anos ou mais.*\n\n## Trabalho não remunerado e domicílio\n\n*Horas em cuidados e afazeres domésticos.*\n\n## Recorte territorial\n\n*Capital, resto da região metropolitana e interior de cada UF selecionada.*\n\n## Diferenças brutas e ajustadas\n\n*Regressão com desenho amostral.*\n\n## Seu indicador\n\n*Espaço para o indicador criado na atividade do Dia 2.*\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

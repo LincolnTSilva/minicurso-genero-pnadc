@@ -1,0 +1,73 @@
+---
+title: "Indicadores de desigualdade de gênero com a PNAD Contínua em R"
+subtitle: "Minicurso · 6 horas em 2 encontros de 3 horas"
+toc: false
+---
+
+::: {.destaque}
+Aprenda a construir, estimar e interpretar indicadores de desigualdade de gênero com os microdados da PNAD Contínua, em um fluxo reprodutível com R e Quarto.
+
+Ao final, você reproduz um relatório completo e acrescenta a ele um indicador criado por você.
+:::
+
+## Como o curso funciona
+
+Começamos pelo fim: na abertura, você vê o relatório pronto. Nos dois dias, desmontamos e remontamos esse relatório, etapa por etapa. No encerramento, o mesmo relatório é atualizado para outro ano trocando apenas um parâmetro.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+::: {.cartao}
+### Dia 1: da pergunta aos dados
+
+- Indicadores de gênero e o CMIG
+- Conhecendo a PNAD Contínua
+- Projeto reprodutível e leitura da base
+- Recodificação e variáveis derivadas
+- Primeiras estimativas e gráficos
+
+[Ver programa do Dia 1 →](dia1.qmd)
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.cartao}
+### Dia 2: dos dados às conclusões
+
+- Desenho amostral com srvyr
+- Reprodução do relatório
+- Comparações, testes e regressão
+- Atividade: um indicador novo
+- Atualização para o ano mais recente
+
+[Ver programa do Dia 2 →](dia2.qmd)
+:::
+:::
+
+:::
+
+## O que você vai aprender
+
+1. Localizar no questionário e no dicionário da PNAD Contínua as variáveis de um indicador.
+2. Recodificar variáveis e construir variáveis derivadas da pessoa e do domicílio.
+3. Aplicar o desenho amostral e os pesos com o pacote srvyr.
+4. Calcular taxas, médias e razões entre grupos, com intervalo de confiança e coeficiente de variação.
+5. Desagregar indicadores por idade, cor ou raça, escolaridade e território, avaliando a precisão.
+6. Testar diferenças entre grupos e interpretar uma regressão com desenho amostral.
+7. Comunicar os resultados em gráficos com ggplot2.
+8. Reproduzir e atualizar um relatório em Quarto.
+
+## Informações gerais
+
+| | |
+|---|---|
+| **Carga horária** | 6 horas, em 2 encontros de 3 horas |
+| **Local** | Laboratório de informática da universidade |
+| **Pré-requisito** | Alguma familiaridade com R |
+| **Ferramentas** | R, RStudio, Quarto, tidyverse, srvyr, survey e ggplot2 |
+| **Dados** | PNAD Contínua, arquivo anual da 5ª visita (IBGE) |
+
+::: {.callout-tip}
+## Antes do curso
+Os computadores do laboratório já estarão configurados. Se quiser acompanhar também no seu computador, veja a página [Preparação](preparacao.qmd).
+:::

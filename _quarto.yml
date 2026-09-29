@@ -1,0 +1,50 @@
+project:
+  type: website
+
+# Os cálculos rodam só na sua máquina; o site publica os resultados guardados
+execute:
+  freeze: auto
+
+website:
+  title: "Gênero e PNAD Contínua em R"
+  description: "Minicurso sobre indicadores de desigualdade de gênero com os microdados da PNAD Contínua em R."
+  search: true
+  page-navigation: true
+  back-to-top-navigation: true
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Início
+      - href: preparacao.qmd
+        text: Preparação
+      - text: Programa
+        menu:
+          - href: dia1.qmd
+            text: "Dia 1: da pergunta aos dados"
+          - href: dia2.qmd
+            text: "Dia 2: dos dados às conclusões"
+          - href: relatorio.qmd
+            text: "Relatório final"
+      - href: materiais.qmd
+        text: Materiais
+      - href: dados.qmd
+        text: Dados
+      - href: referencias.qmd
+        text: Referências
+      - href: about.qmd
+        text: Sobre
+
+  page-footer:
+    left: "Minicurso interno · 2026"
+    right: "Feito com [Quarto](https://quarto.org)"
+
+format:
+  html:
+    lang: pt
+    theme:
+      - cosmo
+      - tema.scss
+    css: styles.css
+    toc: true
+    toc-title: "Nesta página"
