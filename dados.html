@@ -162,8 +162,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#base-preparada" id="toc-base-preparada" class="nav-link active" data-scroll-target="#base-preparada">Base preparada</a></li>
-  <li><a href="#script-de-preparação" id="toc-script-de-preparação" class="nav-link" data-scroll-target="#script-de-preparação">Script de preparação</a></li>
+  <li><a href="#base-do-curso" id="toc-base-do-curso" class="nav-link active" data-scroll-target="#base-do-curso">Base do curso</a></li>
+  <li><a href="#como-a-base-foi-gerada" id="toc-como-a-base-foi-gerada" class="nav-link" data-scroll-target="#como-a-base-foi-gerada">Como a base foi gerada</a></li>
   </ul>
 </nav>
     </div>
@@ -190,15 +190,15 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>O curso usa o arquivo anual da <strong>5ª visita da PNAD Contínua</strong>, que reúne trabalho, rendimentos, escolaridade e afazeres domésticos em uma única base.</p>
-<section id="base-preparada" class="level2">
-<h2 class="anchored" data-anchor-id="base-preparada">Base preparada</h2>
-<p>Uma versão reduzida da base, com as variáveis usadas no curso, em formato <code>.rds</code>. Ela mantém todas as pessoas da amostra e as variáveis do desenho amostral.</p>
-<p><em>O link para download será disponibilizado aqui.</em></p>
+<section id="base-do-curso" class="level2">
+<h2 class="anchored" data-anchor-id="base-do-curso">Base do curso</h2>
+<p>Uma versão reduzida dos microdados, com as variáveis usadas no curso, em <code>.csv.gz</code> e com as variáveis em códigos. Ela mantém todas as pessoas da amostra e as variáveis do desenho amostral. Os pesos replicados ficam num arquivo separado.</p>
+<p>Os arquivos ficam no Zenodo e são lidos diretamente pelo <a href="./relatorio.html">relatório</a> com o pacote <code>readr</code>.</p>
+<p><em>O link do Zenodo será disponibilizado aqui.</em></p>
 </section>
-<section id="script-de-preparação" class="level2">
-<h2 class="anchored" data-anchor-id="script-de-preparação">Script de preparação</h2>
-<p>O script que baixa os microdados do IBGE e gera a base preparada, para quem quiser reproduzir o processo ou atualizar os dados para outro ano.</p>
-<p><em>O link será disponibilizado aqui.</em></p>
+<section id="como-a-base-foi-gerada" class="level2">
+<h2 class="anchored" data-anchor-id="como-a-base-foi-gerada">Como a base foi gerada</h2>
+<p>O código que baixa os microdados do IBGE e gera a base está na seção <a href="./relatorio.html#o-projeto-e-os-dados">O projeto e os dados</a> do relatório. Ele só roda com o parâmetro <code>gerar_base: true</code> e serve para reproduzir o processo ou atualizar os dados para outro ano.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -209,7 +209,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Os microdados completos são grandes e demoram para baixar e ler. Com 30 pessoas na mesma rede, o processo ficaria lento. Por isso, no laboratório, a base preparada já estará copiada em cada computador.</p>
+<p>Os microdados completos são grandes e demoram para baixar e ler. Com 30 pessoas na mesma rede, o processo ficaria lento. Por isso, no laboratório, a base do curso já estará copiada em cada computador.</p>
 </div>
 </div>
 
