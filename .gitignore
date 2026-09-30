@@ -11,8 +11,11 @@
 .RData
 .Ruserdata
 
-# Dados: a base vai como anexo de Release, nunca dentro do repositório
+# Dados: a base é publicada no Zenodo, nunca dentro do repositório
 *.rds
 *.zip
 *.csv
 dados/
+
+# Cache do knitr (guarda o download dos microdados)
+*_cache/
